@@ -25,10 +25,8 @@ gem 'rails_12factor', group: :production
 
 gem 'pg', group: :production
 
-<<<<<<< HEAD
 gem 'devise'
 
-=======
->>>>>>> 3f2d3137c8bf7aefe80af1f72b3386ed5aa94fc4
+
 #ruby '2.1.1p76'
 
