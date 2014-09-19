@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20140919153715) do
+=======
+ActiveRecord::Schema.define(version: 20140917013157) do
+>>>>>>> 3f2d3137c8bf7aefe80af1f72b3386ed5aa94fc4
 
   create_table "restaurants", force: true do |t|
     t.string   "name"
@@ -22,6 +26,7 @@ ActiveRecord::Schema.define(version: 20140919153715) do
     t.datetime "updated_at"
   end
 
+<<<<<<< HEAD
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
@@ -40,4 +45,6 @@ ActiveRecord::Schema.define(version: 20140919153715) do
   add_index "users", ["email"], name: "index_users_on_email", unique: true
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
 
+=======
+>>>>>>> 3f2d3137c8bf7aefe80af1f72b3386ed5aa94fc4
 end
